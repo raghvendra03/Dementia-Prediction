@@ -22,3 +22,19 @@ The other factore which affects this is:
 6. eTIV - Estimated total intracranial volume, mm3
 7. nWBV - Normalized whole-brain volume
 8. ASF - Atlas scaling factor
+
+## Data Pre-Processing
+
+The dataset has to be imported and it will be split into two one for training purpose and other is for testing the dataset in the ratio 70% and 30% and the splitting is done random. We have checked for missing values and tried to fill it, there were some variables which has less or no effect in the analysis hence these have been removed from the dataset. 
+
+## Exploratory Data Analysis
+
+I have analysed the each variable with respect to the CDR with some visual graphs so as to understand what factors might affect or what might not, we got a better understanding as well from the Co-relation graph as well. The visulation is also done for all the variables with respect to the CDR and plots are easy to understand. 
+
+## Model
+
+Now the data has been trained and with the help of this analysis we will test the testing dataset. For testing the dataset I have used Classification based alrorithms and out of all other classification modle the best result I got was from Gradient Boosting and Support Vector Machine. 
+
+Yes we can have some conclusion for this
+- The data set available was very less, there has to be some more validation needs to be done which might help us in this.  
+- The mani factors were not much affecting the CDR as per the co-relation graph.
