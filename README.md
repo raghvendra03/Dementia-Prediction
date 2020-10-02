@@ -1,6 +1,14 @@
 # Dementia-Prediction
 Analyzed and tried to understand if someone is likely to get Alzheimer’s 
 
+## Table of Contents
+
+1. Introduction
+2. Overview of Data
+3. Data Pre-Processing
+4. Exploratory Data Analysis
+5. Modeling
+
 ## Introduction
 ### What is Dementia
 
